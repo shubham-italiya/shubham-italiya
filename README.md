@@ -19,7 +19,7 @@ I build data pipelines, machine-learning models and web services, and I care abo
 
 | Project | What it does | Stack |
 |---|---|---|
-| [cash-flow-forecasting](https://github.com/shubham-italiya/cash-flow-forecasting) | Forecasts 30-day cash flow from transaction data; compares ARIMA and LSTM | Python, TensorFlow, pandas, AWS Lambda |
-| [payment-behaviour-classifier](https://github.com/shubham-italiya/payment-behaviour-classifier) | Flags customers likely to pay late, on heavily imbalanced data | Python, scikit-learn, SMOTE, SQL |
+| [cash-flow-forecasting](https://github.com/shubham-italiya/cash-flow-forecasting) | Forecasts 30 days of cash inflow from ~1M real transactions; seasonal naive vs SARIMA vs LSTM in a rolling backtest | Python, TensorFlow, statsmodels, AWS Lambda |
+| [payment-behaviour-classifier](https://github.com/shubham-italiya/payment-behaviour-classifier) | Flags customers likely to pay late (30,000 customers, 22% late); SMOTE vs class weights, tuned threshold | Python, SQL, scikit-learn, imbalanced-learn |
 
 <!-- Only list a project here once its repository is public. -->
