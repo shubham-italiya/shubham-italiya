@@ -21,5 +21,6 @@ I build data pipelines, machine-learning models and web services, and I care abo
 |---|---|---|
 | [cash-flow-forecasting](https://github.com/shubham-italiya/cash-flow-forecasting) | Forecasts 30 days of cash inflow from ~1M real transactions; seasonal naive vs SARIMA vs LSTM in a rolling backtest | Python, TensorFlow, statsmodels, AWS Lambda |
 | [payment-behaviour-classifier](https://github.com/shubham-italiya/payment-behaviour-classifier) | Flags customers likely to pay late (30,000 customers, 22% late); SMOTE vs class weights, tuned threshold | Python, SQL, scikit-learn, imbalanced-learn |
+| [aws-serverless-data-pipeline](https://github.com/shubham-italiya/aws-serverless-data-pipeline) | Daily CSV files land in S3; a Lambda runs 8 data-quality checks, quarantines bad batches and sends SNS alerts; Glue writes a Parquet data lake | AWS Lambda, S3, SNS, Glue, SAM, Python |
 
 <!-- Only list a project here once its repository is public. -->
